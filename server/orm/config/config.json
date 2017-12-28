@@ -1,5 +1,12 @@
 {
   "development": {
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    },
     "username": "btnbyxoivryykx",
     "password": "743ea2001f5a1ed31f11990fd3a5a620453d8055b206904311677eb4afbba67c",
     "database": "d46fg9qfan6h2b",
